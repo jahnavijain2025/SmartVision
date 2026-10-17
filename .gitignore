@@ -1,0 +1,19 @@
+# Python environments
+.venv/
+.venv-gpu/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Raw dataset
+data/raw/
+
+# Temporary files
+.DS_Store
+Thumbs.db
+# Experimental model checkpoints not needed for the final demo
+models/known_classifier.pth
+models/known_classifier_baseline.pth
+models/known_classifier_improved.pth
+models/known_classifier_augmented.pth
